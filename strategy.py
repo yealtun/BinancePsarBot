@@ -1,11 +1,9 @@
 import ccxt, config
 import pandas as pd
 from ta.trend import PSARIndicator
-import winsound
 from smtplib import SMTP
 
-duration = 1000  # milliseconds
-freq = 440  # Hz
+
 
 symbolName = input("Sembol adı girin (BTC, ETH, LTC...vb): ")
 leverage = input("Kaldıraç büyüklüğü: ")

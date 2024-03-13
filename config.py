@@ -1,5 +1,3 @@
 apiKey = ""
 secretKey = ""
 mailAddress =""
-mailAddress2 = ""
-password=""
